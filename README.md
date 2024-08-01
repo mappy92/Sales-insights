@@ -1,2 +1,3 @@
-# Sales-insights
-Sales data analysis of a computer hardware company
+# Sales-insights Project
+Problem Statement: 
+Findings and Results: 
