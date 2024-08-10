@@ -12,6 +12,7 @@ Using multiple Excel files across regions hampers data collaboration and real-ti
 <li><b>Environments: </b>MS Power BI, MySQL Workbench. </li>
 </ul>
 <b> Findings and Results: </b> <br />
+![alt text](https://github.com/mappy92/Sales-insights/blob/main/Page%201.png?raw=true)
 
 <b> Revenue And Profit Analysis : </b>
 
