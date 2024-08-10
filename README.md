@@ -1,15 +1,15 @@
-# Sales-insights Project
-## Problem Statement: 
+## Sales-insights Project
+# Problem Statement: 
 Using multiple Excel files across regions hampers data collaboration and real-time performance tracking, hurting revenue. Streamlined data integration and real-time analytics are needed for better decision-making and revenue recovery. Visualizing regional sales, top-selling products by profit margin, and other metrics will improve tracking and boost performance.
 
-## Data Processing and Analysis Plans
-# Data Types: Text, Whole Number, Currency, Date
-# File Formats Used: SQL dump file from MySQL Workbench (logged in with developer credentials)
-# PBIX file for Power BI report to be published in the respective workspace
-# Languages Used: SQL, DAX
-# Environments: MS Power BI, MySQL Workbench
+# Data Processing and Analysis Plans
+Data Types: Text, Whole Number, Currency, Date
+File Formats Used: SQL dump file from MySQL Workbench (logged in with developer credentials)
+PBIX file for Power BI report to be published in the respective workspace
+Languages Used: SQL, DAX
+Environments: MS Power BI, MySQL Workbench
 
-## Findings and Results: 
+# Findings and Results: 
 # Revenue And Profit Analysis : 
 1.Delhi: Highest revenue, contributing significantly to the total income. Despite its high revenue, the profit margin is relatively modest at 10.5%.
 2.Mumbai: Leads in profit margin at 23.9%. For every 100 units of profit, 24 units come from Mumbai, with a revenue of 20 million.
