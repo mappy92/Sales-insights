@@ -18,7 +18,7 @@ Using multiple Excel files across regions hampers data collaboration and real-ti
 <ol>
   <li><b>Delhi:</b> Highest revenue, contributing significantly to the total income. Despite its high revenue, the profit margin is relatively modest at 10.5%.</li>
   <li><b>Mumbai:</b> Leads in profit margin at 23.9%. For every 100 units of profit, 24 units come from Mumbai, with a revenue of 20 million.</li>
-  <li><b>Bhubaneshwar:</b> Noted for the highest profit margin at 10.5%, though overall revenue is lower compared to Delhi and Mumbai.</li>
+  <li><b>Bhubaneshwar:</b> Highest profit margin at 10.5%, though overall revenue is lower compared to Delhi and Mumbai.</li>
   <li><b>Delhi & Mumbai Contribution:</b> Delhi contributes 22 units to every 100 units of profit with a revenue of 78 million.</li>
 </ol>
 
