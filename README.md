@@ -85,12 +85,10 @@ Using SQL-based data extraction from MySQL and Power BI visualizations, this pro
 
 ---
 
----
-
 
 ## Project Demo
 
-![Sales Project Demo](./demo/Sales_Project_Demo.gif)(./Sales Project Demo.gif)
+![Sales Project Demo](https://github.com/mappy92/Sales-insights/blob/main/Sales%20Project%20Demo.gif?raw=true)  
 
 
 ---
