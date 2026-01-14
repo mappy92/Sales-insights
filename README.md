@@ -1,44 +1,163 @@
-# Sales-insights Project
-<b>Problem Statement:</b> 
+# Sales Insights Project 
 
-Using multiple Excel files across regions hampers data collaboration and real-time performance tracking, hurting revenue. Streamlined data integration and real-time analytics are needed for better decision-making and revenue recovery. Visualizing regional sales, top-selling products by profit margin, and other metrics will improve tracking and boost performance.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-<b>Data Processing and Analysis Plans</b> <br />
-<ul>
-<li><b>Data Types: </b>Text, Whole Number, Currency, Date.</li>
-<li><b>File Formats Used: </b>SQL dump file from MySQL Workbench (logged in with developer credentials). </li>
-<li><b>PBIX file: </b> Power BI report to be published in the respective workspace. </li>
-<li><b>Languages Used: </b>SQL, DAX. </li>
-<li><b>Environments: </b>MS Power BI, MySQL Workbench. </li>
-</ul>
-<b> Findings and Results: </b> <br />
-<br />
-<img width="647" alt="Page_1" src="https://github.com/user-attachments/assets/dcdc8609-d2a7-481d-ae0f-67d92eb698ef"><br />
-<img width="652" alt="Page_2" src="https://github.com/user-attachments/assets/c7700f1c-69ed-475b-af3a-8d3efad0a42e"><br />
-<img width="654" alt="Page_3" src="https://github.com/user-attachments/assets/82e6d15d-06b5-4382-abbd-41229196f2c8">
-<br/>
-<br/>
-<b> Revenue And Profit Analysis : </b>
+---
 
-<ol>
-  <li><b>Delhi:</b> Highest revenue, contributing significantly to the total income. Despite its high revenue, the profit margin is relatively modest at 10.5%.</li>
-  <li><b>Mumbai:</b> Leads in profit margin at 23.9%. For every 100 units of profit, 24 units come from Mumbai, with a revenue of 20 million.</li>
-  <li><b>Bhubaneshwar:</b> Highest profit margin at 10.5%, though overall revenue is lower compared to Delhi and Mumbai.</li>
-  <li><b>Delhi & Mumbai Contribution:</b> Delhi contributes 22 units to every 100 units of profit with a revenue of 78 million.</li>
-</ol>
+## Table of Contents
 
-<b>  Top Customers Analysis</b> <br />
+1. [Project Scope](#project-scope)  
+2. [Audience-Friendly Description](#audience-friendly-description)  
+3. [Business Impact](#business-impact)  
+4. [Project Description](#project-description)  
+5. [Why This Technology](#why-this-technology)  
+6. [Data Processing and Analysis Plan](#data-processing-and-analysis-plan)  
+7. [Dashboards & Visualizations](#dashboards--visualizations)
+8. [Project Demo](#project-demo)  
+9. [Revenue and Profit Analysis](#revenue-and-profit-analysis)  
+10. [Top Customers Analysis](#top-customers-analysis)  
+11. [How to Run](#how-to-run)  
+12. [Output](#output)  
+13. [Next Steps](#next-steps)  
+14. [License & Credits](#license--credits)  
 
-<ol>
-  <li><b>Excel Stores and Surge Stores:</b> Major customers, contributing significantly to the overall revenue.</li>
-  <li><b>Electricalsara:</b> Despite a low profit margin of 0.4%, Electricalsara places a high volume of orders, contributing 11.9% to the total profit.</li>
-  <li><b>Lucknow:</b> Currently operating at a negative profit. Consideration for discontinuing further business here is recommended.</li>
-  <li><b>Further Recommendation:</b> Market Basket Analysis</li>
-</ol>
+---
+
+## Project Scope
+
+The Sales Insights Project focuses on improving business decision-making by replacing fragmented Excel-based regional reports with a centralized data analytics solution. The project integrates transactional sales data and provides real-time insights into revenue, profit margins, customer performance, and regional trends using Power BI dashboards.
+
+---
+
+## Audience-Friendly Description
+
+This project enables sales managers and business stakeholders to track performance across regions in real time, identify high-performing products and customers, and take data-driven actions to improve profitability and operational efficiency.
+
+---
+
+## Business Impact
+
+- Eliminates dependency on multiple Excel files  
+- Improves collaboration across regional teams  
+- Enables real-time performance tracking  
+- Identifies profit-draining regions and customers  
+- Supports revenue recovery through actionable insights  
+
+---
+
+## Project Description
+
+Using SQL-based data extraction from MySQL and Power BI visualizations, this project delivers an end-to-end sales analytics solution. It highlights revenue trends, profit margins, and customer behavior through interactive dashboards, enabling stakeholders to quickly identify opportunities and risks.
+
+---
+
+### Why This Technology
+
+- **Power BI:** Interactive dashboards and real-time analytics  
+- **SQL:** Data extraction, aggregation, and transformation  
+- **DAX:** Business logic, KPIs, and calculated measures  
+- **MySQL Workbench:** Source system for transactional data  
+
+---
+
+## Data Processing and Analysis Plan
+
+- **Data Types:** Text, Whole Number, Currency, Date  
+- **File Format:** SQL dump file extracted from MySQL Workbench  
+- **Reporting File:** Power BI (.pbix) published to workspace  
+- **Languages Used:** SQL, DAX  
+- **Tools & Environments:** Microsoft Power BI, MySQL Workbench  
+
+---
 
 
+## Dashboards & Visualizations
+
+### Dashboard Pages
+
+![Page 1](https://github.com/user-attachments/assets/dcdc8609-d2a7-481d-ae0f-67d92eb698ef)
+
+![Page 2](https://github.com/user-attachments/assets/c7700f1c-69ed-475b-af3a-8d3efad0a42e)
+
+![Page 3](https://github.com/user-attachments/assets/82e6d15d-06b5-4382-abbd-41229196f2c8)
+
+---
+
+---
 
 
+## Project Demo
+
+![Sales Project Demo](./demo/Sales_Project_Demo.gif)(./Sales Project Demo.gif)
 
 
+---
+
+## Revenue and Profit Analysis
+
+1. **Delhi:**  
+   Highest revenue contributor to overall income. Despite strong revenue performance, the profit margin remains moderate at **10.5%**.
+
+2. **Mumbai:**  
+   Leads in profit margin at **23.9%**. For every 100 units of profit, **24 units** originate from Mumbai, supported by **20 million** in revenue.
+
+3. **Bhubaneshwar:**  
+   Displays a profit margin of **10.5%**, though total revenue is lower compared to Delhi and Mumbai.
+
+4. **Delhi & Mumbai Contribution:**  
+   Delhi contributes **22 units** to every 100 units of profit, driven by a revenue of **78 million**.
+
+---
+
+## Top Customers Analysis
+
+1. **Excel Stores and Surge Stores:**  
+   Major customers contributing significantly to total revenue.
+
+2. **Electricalsara:**  
+   Despite a low profit margin of **0.4%**, high order volume results in **11.9%** contribution to total profit.
+
+3. **Lucknow:**  
+   Operating at a **negative profit**, indicating a need for strategic reassessment or potential discontinuation.
+
+4. **Further Recommendation:**  
+   Perform **Market Basket Analysis** to identify cross-selling and upselling opportunities.
+
+---
+
+## How to Run
+
+1. Import the SQL dump file into **MySQL Workbench**  
+2. Open the Power BI **.pbix** file  
+3. Update database connection credentials if required  
+4. Refresh the dataset to load the latest data  
+5. Publish the report to the Power BI workspace  
+
+---
+
+## Output
+
+- Interactive Power BI dashboards  
+- Region-wise revenue and profit insights  
+- Customer-level performance metrics  
+- Actionable recommendations for sales optimization  
+
+---
+
+## Next Steps
+
+1. Automate data refresh using scheduled gateways  
+2. Integrate additional regional and product datasets  
+3. Implement Market Basket Analysis for cross-selling insights  
+4. Add forecasting models for revenue and demand prediction  
+5. Enable role-based access control in Power BI  
+
+---
+
+## License & Credits
+
+- **License:** MIT License  
+- **Credits:** Microsoft Power BI, MySQL, SQL, DAX  
 
